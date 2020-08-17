@@ -10,8 +10,11 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        System.out.println( "Enter a number to translate:" );
         Scanner scanner=new Scanner(System.in);
-        String numberAsString=scanner.nextLine();
+        String numberOption=scanner.nextLine();
+
+        System.out.println("To What language (1-French, 2-German)?");
+        String langOption=scanner.nextLine();
     }
 }
